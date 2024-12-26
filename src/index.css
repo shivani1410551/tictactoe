@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.active {
+  background-color: deeppink;
+  border-radius: 8px;
+  padding: 8px 16px;
+}
+
+button{
+  padding:6px 12px;
+  border-radius:5px;
+  background:purple;
+  color:#fff;
+}
+button:hover{
+  opacity:0.6
+}
+.packed{
+  text-decoration:line-through
+}
+
+.player-name,.player-symbol{
+  font-weight:600;
+  font-size:1.2rem;
+  text-transform: uppercase;
+  padding-right:1rem;
+  color:white
+}
+
+.playerActive{
+  border:2px solid yellow;
+  padding:16px;
+  border-radius:8px;
+}
